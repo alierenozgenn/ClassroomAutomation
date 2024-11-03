@@ -1,0 +1,42 @@
+C:\Users\aypc\documents\visual studio 2013\Projects\DershaneOtomasyon\MODEL\bin\Debug\MODEL.dll
+C:\Users\aypc\documents\visual studio 2013\Projects\DershaneOtomasyon\MODEL\bin\Debug\MODEL.pdb
+C:\Users\aypc\documents\visual studio 2013\Projects\DershaneOtomasyon\MODEL\obj\Debug\MODEL.dll
+C:\Users\aypc\documents\visual studio 2013\Projects\DershaneOtomasyon\MODEL\obj\Debug\MODEL.pdb
+C:\Users\aypc\documents\visual studio 2013\Projects\DershaneOtomasyon\MODEL\obj\Debug\MODEL.Properties.Resources.resources
+C:\Users\aypc\documents\visual studio 2013\Projects\DershaneOtomasyon\MODEL\obj\Debug\MODEL.csproj.GenerateResource.Cache
+C:\Users\aypc\documents\visual studio 2013\Projects\DershaneOtomasyon\MODEL\obj\Debug\MODEL.csprojResolveAssemblyReference.cache
+E:\C# PROJELER\Visual Studio 2013\Projects\DershaneOtomasyon\MODEL\bin\Debug\MODEL.dll
+E:\C# PROJELER\Visual Studio 2013\Projects\DershaneOtomasyon\MODEL\bin\Debug\MODEL.pdb
+E:\C# PROJELER\Visual Studio 2013\Projects\DershaneOtomasyon\MODEL\obj\Debug\MODEL.Properties.Resources.resources
+E:\C# PROJELER\Visual Studio 2013\Projects\DershaneOtomasyon\MODEL\obj\Debug\MODEL.csproj.GenerateResource.Cache
+E:\C# PROJELER\Visual Studio 2013\Projects\DershaneOtomasyon\MODEL\obj\Debug\MODEL.dll
+E:\C# PROJELER\Visual Studio 2013\Projects\DershaneOtomasyon\MODEL\obj\Debug\MODEL.pdb
+E:\C# PROJELER\Visual Studio 2013\Projects\DershaneOtomasyon\MODEL\obj\Debug\MODEL.csprojResolveAssemblyReference.cache
+E:\C# PROJELER\DershaneOtomasyon\MODEL\bin\Debug\MODEL.dll
+E:\C# PROJELER\DershaneOtomasyon\MODEL\bin\Debug\MODEL.pdb
+E:\C# PROJELER\DershaneOtomasyon\MODEL\obj\Debug\MODEL.csprojResolveAssemblyReference.cache
+E:\C# PROJELER\DershaneOtomasyon\MODEL\obj\Debug\MODEL.Properties.Resources.resources
+E:\C# PROJELER\DershaneOtomasyon\MODEL\obj\Debug\MODEL.csproj.GenerateResource.Cache
+E:\C# PROJELER\DershaneOtomasyon\MODEL\obj\Debug\MODEL.dll
+E:\C# PROJELER\DershaneOtomasyon\MODEL\obj\Debug\MODEL.pdb
+C:\Users\aypc\Desktop\DershaneOtomasyon\MODEL\bin\Debug\MODEL.dll
+C:\Users\aypc\Desktop\DershaneOtomasyon\MODEL\bin\Debug\MODEL.pdb
+C:\Users\aypc\Desktop\DershaneOtomasyon\MODEL\obj\Debug\MODEL.csprojResolveAssemblyReference.cache
+C:\Users\aypc\Desktop\DershaneOtomasyon\MODEL\obj\Debug\MODEL.Properties.Resources.resources
+C:\Users\aypc\Desktop\DershaneOtomasyon\MODEL\obj\Debug\MODEL.csproj.GenerateResource.Cache
+C:\Users\aypc\Desktop\DershaneOtomasyon\MODEL\obj\Debug\MODEL.dll
+C:\Users\aypc\Desktop\DershaneOtomasyon\MODEL\obj\Debug\MODEL.pdb
+E:\OMU\Yazılım Muhendisligi\DershaneOtomasyon\MODEL\bin\Debug\MODEL.dll
+E:\OMU\Yazılım Muhendisligi\DershaneOtomasyon\MODEL\bin\Debug\MODEL.pdb
+E:\OMU\Yazılım Muhendisligi\DershaneOtomasyon\MODEL\obj\Debug\MODEL.csprojResolveAssemblyReference.cache
+E:\OMU\Yazılım Muhendisligi\DershaneOtomasyon\MODEL\obj\Debug\MODEL.Properties.Resources.resources
+E:\OMU\Yazılım Muhendisligi\DershaneOtomasyon\MODEL\obj\Debug\MODEL.csproj.GenerateResource.Cache
+E:\OMU\Yazılım Muhendisligi\DershaneOtomasyon\MODEL\obj\Debug\MODEL.dll
+E:\OMU\Yazılım Muhendisligi\DershaneOtomasyon\MODEL\obj\Debug\MODEL.pdb
+E:\cdcd\$Root\OMU\1.DONEM\Yazılım Muhendisligi\DershaneOtomasyon\MODEL\bin\Debug\MODEL.dll
+E:\cdcd\$Root\OMU\1.DONEM\Yazılım Muhendisligi\DershaneOtomasyon\MODEL\bin\Debug\MODEL.pdb
+E:\cdcd\$Root\OMU\1.DONEM\Yazılım Muhendisligi\DershaneOtomasyon\MODEL\obj\Debug\MODEL.csprojResolveAssemblyReference.cache
+E:\cdcd\$Root\OMU\1.DONEM\Yazılım Muhendisligi\DershaneOtomasyon\MODEL\obj\Debug\MODEL.Properties.Resources.resources
+E:\cdcd\$Root\OMU\1.DONEM\Yazılım Muhendisligi\DershaneOtomasyon\MODEL\obj\Debug\MODEL.csproj.GenerateResource.Cache
+E:\cdcd\$Root\OMU\1.DONEM\Yazılım Muhendisligi\DershaneOtomasyon\MODEL\obj\Debug\MODEL.dll
+E:\cdcd\$Root\OMU\1.DONEM\Yazılım Muhendisligi\DershaneOtomasyon\MODEL\obj\Debug\MODEL.pdb

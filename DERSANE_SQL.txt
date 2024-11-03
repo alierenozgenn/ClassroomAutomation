@@ -1,0 +1,914 @@
+CREATE TABLE [dbo].[TBLBilgi] (
+    [BlgID]           INT           IDENTITY (1, 1) NOT NULL,
+    [BlgDershaneAd]   VARCHAR (50)  NULL,
+    [BlgTel]          VARCHAR (50)  NULL,
+    [BlgVergiDairesi] VARCHAR (50)  NULL,
+    [BlgVergiNo]      VARCHAR (50)  NULL,
+    [BlgIBAN]         VARCHAR (50)  NULL,
+    [BlgYetkili]      VARCHAR (50)  NULL,
+    [BlgAdres]        VARCHAR (100) NULL,
+    [BlgKAdi]         VARCHAR (50)  NULL,
+    [BlgParola]       VARCHAR (50)  NULL,
+    PRIMARY KEY CLUSTERED ([BlgID] ASC)
+);
+
+CREATE TABLE [dbo].[TBLOdemeler] (
+    [OdemeID]       INT          IDENTITY (1, 1) NOT NULL,
+    [OdemeSekli]    VARCHAR (50) NULL,
+    [OdemeIslem]    VARCHAR (50) NULL,
+    [OdemeTarih]    DATE         NULL,
+    [OdemeTutar]    INT          NULL,
+    [OdemeBelNo]    INT          NULL,
+    [OdemeAciklama] VARCHAR (50) NULL,
+    [OdemeKisiID]   INT          NULL,
+    [OdemeTuru]     INT          NULL,
+    [OdemeDurum]    INT          DEFAULT ((1)) NULL,
+    PRIMARY KEY CLUSTERED ([OdemeID] ASC)
+);
+
+CREATE TABLE [dbo].[TBLOdemeVade] (
+    [OdVId]          INT           IDENTITY (1, 1) NOT NULL,
+    [OdvOdemeID]     INT           NULL,
+    [OdvOgrID]       INT           NULL,
+    [OdvVadeMiktar]  INT           NULL,
+    [OdvVadeTarihi]  DATE          NULL,
+    [OdvOdemeTarihi] DATE          NULL,
+    [OdvAciklama]    VARCHAR (100) NULL,
+    [OdvOdemeDurumu] INT           NULL,
+    [OdvDurum]       INT           DEFAULT ((1)) NULL,
+    PRIMARY KEY CLUSTERED ([OdVId] ASC)
+);
+
+CREATE TABLE [dbo].[TBLOgrenci] (
+    [OgrenciID]    INT           IDENTITY (1, 1) NOT NULL,
+    [OgrNO]        INT           NULL,
+    [OgrAd]        VARCHAR (50)  NULL,
+    [OgrSoyad]     VARCHAR (50)  NULL,
+    [OgrTcNo]      VARCHAR (11)  NULL,
+    [OgrCinsiyet]  INT           NULL,
+    [OgrSozTarihi] DATE          NULL,
+    [OgrSozTutar]  INT           NULL,
+    [OgrSozTaksit] INT           NULL,
+    [OgrTel]       VARCHAR (50)  NULL,
+    [OgrAdres]     VARCHAR (300) NULL,
+    [OgrAciklama]  VARCHAR (300) NULL,
+    [OgrDurum]     INT           DEFAULT ((1)) NULL,
+    PRIMARY KEY CLUSTERED ([OgrenciID] ASC)
+);
+
+
+CREATE TABLE [dbo].[TBLPersonel] (
+    [PersonelID]       INT          IDENTITY (1, 1) NOT NULL,
+    [PersonelAd]       VARCHAR (50) NULL,
+    [PersonelSoyad]    VARCHAR (50) NULL,
+    [PersonelKimlikNo] VARCHAR (11) NULL,
+    [PersonelUnvan]    VARCHAR (50) NULL,
+    [PersonelDurum]    INT          DEFAULT ((1)) NULL,
+    [PersonelMaas]     INT          NULL,
+    [PersonelEkUcret]  INT          NULL,
+    [PersonelOgretmen] INT          DEFAULT ((1)) NULL,
+    [PersonelGsm]      VARCHAR (50) NULL,
+    [PersonelMail]     VARCHAR (50) NULL,
+    [PersonelAdres]    NCHAR (10)   NULL,
+    PRIMARY KEY CLUSTERED ([PersonelID] ASC)
+);
+
+CREATE TABLE [dbo].[TBLVeli] (
+    [VeliID]       INT           IDENTITY (1, 1) NOT NULL,
+    [VeliOgrID]    INT           NULL,
+    [VeliAd]       VARCHAR (50)  NULL,
+    [VeliSoyad]    VARCHAR (50)  NULL,
+    [VeliKimlikNO] VARCHAR (11)  NULL,
+    [VeliTel]      VARCHAR (50)  NULL,
+    [VeliMeslek]   VARCHAR (50)  NULL,
+    [Velisi]       INT           NULL,
+    [VeliAdres]    VARCHAR (300) NULL,
+    [VeliAB]       INT           NULL,
+    [VeliDurum]    INT           DEFAULT ((1)) NULL,
+    PRIMARY KEY CLUSTERED ([VeliID] ASC)
+);
+/**Peocedure**/
+CREATE proc DERSHANEBILGIEKLE
+(
+@BlgDershaneAd VARCHAR(50),
+@BlgTel VARCHAR(50),
+@BlgVergiDairesi VARCHAR(50),
+@BlgVergiNo VARCHAR(50),
+@BlgIBAN VARCHAR(50),
+@BlgYetkili VARCHAR(50),
+@BlgAdres VARCHAR(100),
+@BlgKAdi VARCHAR(50),
+@BlgParola VARCHAR(50)
+)
+as
+begin
+insert into TBLBilgi(
+BlgDershaneAd,
+BlgTel,
+BlgVergiDairesi,
+BlgVergiNo,
+BlgIBAN,
+BlgYetkili,
+BlgAdres,
+BlgKAdi,
+BlgParola
+)
+values(
+@BlgDershaneAd,
+@BlgTel,
+@BlgVergiDairesi,
+@BlgVergiNo,
+@BlgIBAN,
+@BlgYetkili,
+@BlgAdres,
+@BlgKAdi,
+@BlgParola
+)
+
+end;
+
+CREATE proc DERSHANEBILGIGETIR
+as
+begin
+select *from TBLBilgi
+end;
+
+CREATE proc DERSHANEBILGIGUNCELLE
+(
+@BlgID int,
+@BlgDershaneAd VARCHAR(50),
+@BlgTel VARCHAR(50),
+@BlgVergiDairesi VARCHAR(50),
+@BlgVergiNo VARCHAR(50),
+@BlgIBAN VARCHAR(50),
+@BlgYetkili VARCHAR(50),
+@BlgAdres VARCHAR(100),
+@BlgKAdi VARCHAR(50),
+@BlgParola VARCHAR(50)
+)
+as
+begin
+update TBLBilgi set
+BlgDershaneAd=@BlgDershaneAd,
+BlgTel=@BlgTel,
+BlgVergiDairesi=@BlgVergiDairesi,
+BlgVergiNo=@BlgVergiNo,
+BlgIBAN=@BlgIBAN,
+BlgYetkili=@BlgYetkili,
+BlgAdres=@BlgAdres,
+BlgKAdi=@BlgKAdi,
+BlgParola=@BlgParola
+where BlgID=@BlgID
+end;
+
+
+
+
+CREATE proc DERSHANEBILGISIL
+(
+@BlgID int
+)
+as
+begin
+
+delete from TBLBilgi where BlgID=@BlgID
+
+
+end;
+
+CREATE proc DERSHANELOGINGETIR
+(
+@BlgKAdi VARCHAR(50),
+@BlgParola VARCHAR(50)
+)
+as
+begin
+select *from TBLBilgi where BlgKAdi=@BlgKAdi and BlgParola=@BlgParola
+end;
+
+
+
+
+CREATE proc ODEMEEKLE
+(
+@OdemeSekli varchar(50),
+@OdemeIslem varchar(50),
+@OdemeTarih date,
+@OdemeTutar int,
+@OdemeBelNo int,
+@OdemeAciklama varchar(50),
+@OdemeKisiID int,
+@OdemeTuru varchar(50)
+)
+as
+begin
+insert into TBLOdemeler(
+OdemeSekli,
+OdemeIslem,
+OdemeTarih,
+OdemeTutar,
+OdemeBelNo,
+OdemeAciklama,
+OdemeKisiID,
+OdemeTuru
+)
+values(
+@OdemeSekli,
+@OdemeIslem,
+@OdemeTarih,
+@OdemeTutar,
+@OdemeBelNo,
+@OdemeAciklama,
+@OdemeKisiID,
+@OdemeTuru
+)
+
+end;
+
+
+CREATE proc ODEMEGETIRTUM
+as
+begin
+select *from TBLPersonel  order by PersonelID
+end;
+
+CREATE proc ODEMEGUNCELLE
+(
+@OdemeID int,
+@OdemeSekli varchar(50),
+@OdemeIslem varchar(50),
+@OdemeTarih date,
+@OdemeTutar int,
+@OdemeBelNo int,
+@OdemeAciklama varchar(50),
+@OdemeKisiID int,
+@OdemeTuru varchar(50),
+@OdemeDurum int
+)
+as
+begin
+update TBLOdemeler set
+OdemeSekli=@OdemeSekli,
+OdemeIslem=@OdemeIslem,
+OdemeTarih=@OdemeTarih,
+OdemeTutar=@OdemeTutar,
+OdemeBelNo=@OdemeBelNo,
+OdemeAciklama=@OdemeAciklama,
+OdemeKisiID=@OdemeKisiID,
+OdemeTuru=@OdemeTuru,
+OdemeDurum=@OdemeDurum
+where OdemeID=@OdemeID
+
+end;
+
+CREATE proc ODEMELERIGETIR(
+@odemeDurum int
+)
+as
+begin
+select *from TBLOdemeler where odemeDurum=@odemeDurum order by OdemeID
+end
+
+CREATE proc ODEMELISTGETIR(
+@OdemeDurum int
+)
+as
+begin
+
+select 
+ODM.*,
+OGR.OgrAd,
+OGR.OgrSoyad,
+PRS.PersonelAd,
+PRS.PersonelSoyad
+from TBLOdemeler as ODM
+left join TBLOgrenci as OGR on ODM.OdemeKisiID=OGR.OgrenciID and ODM.OdemeTuru=1
+left join TBLPersonel as PRS on ODM.OdemeKisiID=PRS.PersonelID and ODM.OdemeTuru=0
+where ODM.OdemeDurum=@OdemeDurum order by ODM.OdemeID asc
+
+
+end;
+/*
+ODM.OdemeID,
+ODM.OdemeSekli,
+ODM.OdemeIslem,
+ODM.OdemeTarih,
+ODM.OdemeTutar,
+ODM.OdemeBelNo,
+ODM.OdemeAciklama,
+ODM.OdemeKisiID,
+ODM.OdemeTuru,
+ODM.OdemeDurum,*/
+
+
+
+
+CREATE proc ODEMESIL
+(
+@OdemeID int
+)
+as
+begin
+
+delete from TBLOdemeler where OdemeID=@OdemeID
+
+
+end;
+
+
+
+CREATE proc ODEMEVADEEKLE
+(
+@OdvOdemeID int,
+@OdvOgrID int,
+@OdvVadeMiktar int,
+@OdvVadeTarihi date,
+@OdvOdemeTarihi date,
+@OdvAciklama varchar(100),
+@OdvOdemeDurumu int,
+@OdvDurum int
+)
+as
+begin
+insert into TBLOdemeVade(
+OdvOdemeID,
+OdvOgrID,
+OdvVadeMiktar,
+OdvVadeTarihi,
+OdvOdemeTarihi,
+OdvAciklama,
+OdvOdemeDurumu,
+OdvDurum
+)
+values(
+@OdvOdemeID,
+@OdvOgrID,
+@OdvVadeMiktar,
+@OdvVadeTarihi,
+@OdvOdemeTarihi,
+@OdvAciklama,
+@OdvOdemeDurumu,
+@OdvDurum
+)
+
+end;
+
+
+
+
+CREATE proc ODEMEVADEGETIRTUM
+as
+begin
+select *from TBLOdemeVade  order by OdVId
+end;
+
+
+CREATE proc ODEMEVADEGUNCELLE
+(
+@OdvID int,
+@OdvOdemeID int,
+@OdvOgrID int,
+@OdvVadeMiktar int,
+@OdvVadeTarihi date,
+@OdvOdemeTarihi date,
+@OdvAciklama varchar(100),
+@OdvOdemeDurumu int,
+@OdvDurum int
+)
+as
+begin
+update TBLOdemeVade set
+OdvOdemeID=@OdvOdemeID,
+OdvOgrID=@OdvOgrID,
+OdvVadeMiktar=@OdvVadeMiktar,
+OdvVadeTarihi=@OdvVadeTarihi,
+OdvOdemeTarihi=@OdvOdemeTarihi,
+OdvAciklama=@OdvAciklama,
+OdvOdemeDurumu=@OdvOdemeDurumu,
+OdvDurum=@OdvDurum
+where OdvID=@OdvID
+
+end;
+
+
+CREATE proc ODEMEVADELERIGETIR(
+@OdvDurum int
+)
+as
+begin
+select *from TBLOdemeVade where OdvDurum=@OdvDurum order by OdVId
+end;
+
+
+CREATE proc ODEMEVADESIL
+(
+@OdvID int
+)
+as
+begin
+
+delete from TBLOdemeVade where OdvID=@OdvID
+
+
+end;
+
+CREATE proc ODEMEVADETUMSIL
+(
+@OdvOgrID int
+)
+as
+begin
+
+delete from TBLOdemeVade where OdvOgrID=@OdvOgrID
+
+
+end;
+
+
+CREATE proc OGRENCIEKLE
+(
+@OgrNo int,
+@OgrAd varchar(50),
+@OgrSoyad varchar(50),
+@OgrTcNo varchar(50),
+@OgrCinsiyet int,
+@OgrSozTarihi date,
+@OgrSozTutar int,
+@OgrSozTaksit int,
+@OgrTel varchar(50),
+@OgrAdres varchar(300),
+@OgrAciklama varchar(300),
+@OgrDurum int
+)
+as
+begin
+insert into TBLOgrenci(
+OgrNo,
+OgrAd,
+OgrSoyad,
+OgrTcNo,
+OgrCinsiyet,
+OgrSozTarihi,
+OgrSozTutar ,
+OgrSozTaksit ,
+OgrTel,
+OgrAdres,
+OgrAciklama,
+OgrDurum
+)
+values(
+@OgrNo,
+@OgrAd,
+@OgrSoyad,
+@OgrTcNo,
+@OgrCinsiyet,
+@OgrSozTarihi,
+@OgrSozTutar ,
+@OgrSozTaksit ,
+@OgrTel,
+@OgrAdres,
+@OgrAciklama,
+@OgrDurum
+
+)
+
+end;
+
+
+CREATE proc OGRENCIGETIRTUM
+as
+begin
+select *from TBLOgrenci  order by OgrenciID
+end;
+
+CREATE proc OGRENCIGUNCELLE
+(
+@OgrID int,
+@OgrNo int,
+@OgrAd varchar(50),
+@OgrSoyad varchar(50),
+@OgrTcNo varchar(50),
+@OgrCinsiyet int,
+@OgrSozTarihi date,
+@OgrSozTutar int,
+@OgrSozTaksit int,
+@OgrTel varchar(50),
+@OgrAdres varchar(300),
+@OgrAciklama varchar(300),
+@OgrDurum int
+)
+as
+begin
+update TBLOgrenci set
+OgrNo=@OgrNo,
+OgrAd=@OgrAd,
+OgrSoyad=@OgrSoyad,
+OgrTcNo=@OgrTcNo,
+OgrCinsiyet=@OgrCinsiyet,
+OgrSozTarihi=@OgrSozTarihi,
+OgrSozTutar=@OgrSozTutar ,
+OgrSozTaksit=@OgrSozTaksit ,
+OgrTel=@OgrTel,
+OgrAdres=@OgrAdres,
+OgrAciklama=@OgrAciklama,
+OgrDurum=@OgrDurum
+where OgrenciID=@OgrID
+
+end;
+
+CREATE proc OGRENCILERIGETIR(
+@ogrDurum int
+)
+as
+begin
+select *from TBLOgrenci where OgrDurum=@ogrDurum order by OgrenciID
+end;
+
+CREATE proc OGRENCINOGETIR(
+@ogrNo int
+)
+as
+begin
+select *from TBLOgrenci where OgrNO=@ogrNo order by OgrenciID
+end;
+
+CREATE proc OGRENCISIL
+(
+@OgrenciID int
+)
+as
+begin
+
+/*delete from TBLOgrenci where OgrenciID=@OgrenciID*/
+update TBLOgrenci set
+OgrDurum=0
+where OgrenciID=@OgrenciID
+
+end;
+
+
+CREATE proc OGRETMENEKLE
+(
+@OgretmenAd varchar(50),
+@OgretmenSoyad varchar(50),
+@OgretmenBrans varchar(50),
+@OgretmenDurum int,
+@OgretmenMaas int,
+@OgretmenEkUcret int
+)
+as
+begin
+insert into TBLOgretmenler(
+OgretmenAd,
+OgretmenSoyad ,
+OgretmenBrans,
+OgretmenDurum,
+OgretmenMaas,
+OgretmenEkUcret
+
+)
+values(
+@OgretmenAd,
+@OgretmenSoyad ,
+@OgretmenBrans,
+@OgretmenDurum,
+@OgretmenMaas,
+@OgretmenEkUcret
+)
+
+end;
+
+create proc OGRETMENGUNCELLE
+(
+@OgretmenID int,
+@OgretmenAd varchar(50),
+@OgretmenSoyad varchar(50),
+@OgretmenBrans varchar(50),
+@OgretmenDurum int,
+@OgretmenMaas int,
+@OgretmenEkUcret int
+)
+as
+begin
+update TBLOgretmenler set
+OgretmenAd=@OgretmenAd,
+OgretmenSoyad=@OgretmenSoyad,
+OgretmenBrans=@OgretmenBrans,
+OgretmenDurum=@OgretmenDurum,
+OgretmenMaas=@OgretmenMaas,
+OgretmenEkUcret=@OgretmenEkUcret
+where OgretmenID=@OgretmenID
+
+end;
+
+
+
+
+CREATE proc OGRETMENLERIGETIR(
+@OgretmenDurum int
+)
+as
+begin
+select *from TBLOgretmenler where OgretmenDurum=@OgretmenDurum order by OgretmenID
+end;
+
+CREATE proc OGRETMENSIL
+(
+@OgretmenID int
+)
+as
+begin
+
+delete from TBLOgretmenler where OgretmenID=@OgretmenID
+
+
+end;
+CREATE proc PERSONELEKLE
+(
+@PersonelAd varchar(50),
+@PersonelSoyad varchar(50),
+@PersonelKimlikNo varchar(11),
+@PersonelUnvan varchar(50),
+@PersonelDurum int,
+@PersonelMaas int,
+@PersonelEkUcret int,
+@PersonelOgretmen int,
+@PersonelGsm varchar(50),
+@PersonelMail varchar(50),
+@PersonelAdres varchar(50)
+)
+as
+begin
+insert into TBLPersonel(
+PersonelAd,
+PersonelSoyad,
+PersonelKimlikNo,
+PersonelUnvan,
+PersonelDurum,
+PersonelMaas,
+PersonelEkUcret,
+PersonelOgretmen,
+PersonelGsm,
+PersonelMail,
+PersonelAdres
+)
+values(
+@PersonelAd,
+@PersonelSoyad,
+@PersonelKimlikNo,
+@PersonelUnvan,
+@PersonelDurum,
+@PersonelMaas,
+@PersonelEkUcret,
+@PersonelOgretmen,
+@PersonelGsm,
+@PersonelMail,
+@PersonelAdres
+)
+
+end;
+
+
+
+
+CREATE proc PERSONELGETIRTUM
+as
+begin
+select *from TBLPersonel  order by PersonelID
+end;
+
+
+CREATE proc PERSONELGUNCELLE
+(
+@PersonelID int,
+@PersonelAd varchar(50),
+@PersonelSoyad varchar(50),
+@PersonelKimlikNo varchar(11),
+@PersonelUnvan varchar(50),
+@PersonelDurum int,
+@PersonelMaas int,
+@PersonelEkUcret int,
+@PersonelOgretmen int,
+@PersonelGsm varchar(50),
+@PersonelMail varchar(50),
+@PersonelAdres varchar(50)
+)
+as
+begin
+update TBLPersonel set
+PersonelAd=@PersonelAd,
+PersonelSoyad=@PersonelSoyad,
+PersonelKimlikNo=@PersonelKimlikNo,
+PersonelUnvan=@PersonelUnvan,
+PersonelDurum=@PersonelDurum,
+PersonelMaas=@PersonelMaas,
+PersonelEkUcret=@PersonelEkUcret,
+PersonelOgretmen=@PersonelOgretmen,
+PersonelGsm=@PersonelGsm,
+PersonelMail=@PersonelMail,
+PersonelAdres=@PersonelAdres
+where PersonelID=@PersonelID
+
+end;
+
+
+CREATE proc PERSONELLERIGETIR(
+@PersonelDurum int
+)
+as
+begin
+select *from TBLPersonel where PersonelDurum=@PersonelDurum order by PersonelID
+end;
+
+CREATE proc PERSONELSIL
+(
+@PersonelID int
+)
+as
+begin
+
+delete from TBLPersonel where PersonelID=@PersonelID
+
+
+end;
+
+CREATE proc PERSONELTCGETIR(
+@PersonelKimlikNo int
+)
+as
+begin
+select *from TBLPersonel where PersonelKimlikNo=@PersonelKimlikNo order by PersonelID
+end;
+
+
+CREATE proc SINIFEKLE
+(
+@Sinifadi varchar(50),
+@SinifGrup varchar(50),
+@SinifAciklama varchar(50),
+@SinifKap int,
+@SinifDurum int
+)
+as
+begin
+insert into TBLSiniflar(
+Sinifadi,
+SinifGrup,
+SinifAciklama,
+SinifKap,
+SinifDurum
+)
+values(
+@Sinifadi,
+@SinifGrup,
+@SinifAciklama,
+@SinifKap,
+@SinifDurum
+)
+
+end;
+
+create proc SINIFGUNCELLE
+(
+@SinifID int,
+@Sinifadi varchar(50),
+@SinifGrup varchar(50),
+@SinifAciklama varchar(50),
+@SinifKap int,
+@SinifDurum int
+)
+as
+begin
+update TBLSiniflar set
+Sinifadi=@Sinifadi,
+SinifGrup=@SinifGrup,
+SinifAciklama=@SinifAciklama,
+SinifKap=@SinifKap,
+SinifDurum=@SinifDurum
+where SinifID=@SinifID
+
+end;
+
+CREATE proc SINIFLARIGETIR(
+@SinifDurum int
+)
+as
+begin
+select SinifID,Sinifadi,SinifGrup,SinifAciklama,SinifKap,SinifDurum from TBLSiniflar where SinifDurum=@SinifDurum order by SinifID
+end;
+
+
+CREATE proc SINIFSIL
+(
+@SinifID int
+)
+as
+begin
+
+delete from TBLSiniflar where SinifID=@SinifID
+
+
+end;
+
+
+CREATE proc VELIEKLE
+(
+@VeliOgrID int,
+@VeliAd varchar(50),
+@VeliSoyad varchar(50),
+@VeliKimlikNo varchar(50),
+@VeliTel varchar(50),
+@VeliMeslek varchar(50),
+@Velisi int,
+@VeliAdres varchar(300),
+@VeliAB int,
+@VeliDurum int
+)
+as
+begin
+insert into TBLVeli(
+VeliOgrID,
+VeliAd,
+VeliSoyad,
+VeliKimlikNo,
+VeliTel,
+VeliMeslek,
+Velisi,
+VeliAdres,
+VeliAB,
+VeliDurum
+)
+values(
+@VeliOgrID,
+@VeliAd,
+@VeliSoyad,
+@VeliKimlikNo,
+@VeliTel,
+@VeliMeslek,
+@Velisi,
+@VeliAdres,
+@VeliAB,
+@VeliDurum
+)
+
+end;
+
+CREATE proc VELIGETIRTUM
+as
+begin
+select *from TBLVeli  order by VeliID
+end;
+
+
+CREATE proc VELIGUNCELLE
+(
+@VeliID int,
+@VeliOgrID int,
+@VeliAd varchar(50),
+@VeliSoyad varchar(50),
+@VeliKimlikNo varchar(50),
+@VeliTel varchar(50),
+@VeliMeslek varchar(50),
+@Velisi int,
+@VeliAdres varchar(300),
+@VeliAB int,
+@VeliDurum int
+)
+as
+begin
+update TBLVeli set
+VeliOgrID=@VeliOgrID,
+VeliAd=@VeliAd,
+VeliSoyad=@VeliSoyad,
+VeliKimlikNo=@VeliKimlikNo,
+VeliTel=@VeliTel,
+VeliMeslek=@VeliMeslek,
+Velisi=@Velisi,
+VeliAdres=@VeliAdres,
+VeliAB=@VeliAB,
+VeliDurum=@VeliDurum
+where VeliID=@VeliID
+
+end;
+
+CREATE proc VELILERIGETIR(
+@VeliOgrID int
+)
+as
+begin
+select *from TBLVeli where VeliOgrID=@VeliOgrID order by VeliID
+end;
+
+
+CREATE proc VELISIL
+(
+@VeliOgrID int
+)
+as
+begin
+
+delete from TBLVeli where VeliOgrID=@VeliOgrID
+
+
+end;
+

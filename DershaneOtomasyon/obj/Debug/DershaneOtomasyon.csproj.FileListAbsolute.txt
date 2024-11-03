@@ -1,0 +1,147 @@
+C:\Users\aypc\documents\visual studio 2013\Projects\DershaneOtomasyon\DershaneOtomasyon\bin\Debug\Dershane.mdf
+C:\Users\aypc\documents\visual studio 2013\Projects\DershaneOtomasyon\DershaneOtomasyon\bin\Debug\Dershane_log.ldf
+C:\Users\aypc\documents\visual studio 2013\Projects\DershaneOtomasyon\DershaneOtomasyon\bin\Debug\DershaneOtomasyon.exe.config
+C:\Users\aypc\documents\visual studio 2013\Projects\DershaneOtomasyon\DershaneOtomasyon\bin\Debug\DershaneOtomasyon.exe
+C:\Users\aypc\documents\visual studio 2013\Projects\DershaneOtomasyon\DershaneOtomasyon\bin\Debug\DershaneOtomasyon.pdb
+C:\Users\aypc\documents\visual studio 2013\Projects\DershaneOtomasyon\DershaneOtomasyon\obj\Debug\DershaneOtomasyon.csprojResolveAssemblyReference.cache
+C:\Users\aypc\documents\visual studio 2013\Projects\DershaneOtomasyon\DershaneOtomasyon\obj\Debug\DershaneOtomasyon.Properties.Resources.resources
+C:\Users\aypc\documents\visual studio 2013\Projects\DershaneOtomasyon\DershaneOtomasyon\obj\Debug\DershaneOtomasyon.csproj.GenerateResource.Cache
+C:\Users\aypc\documents\visual studio 2013\Projects\DershaneOtomasyon\DershaneOtomasyon\obj\Debug\DershaneOtomasyon.exe
+C:\Users\aypc\documents\visual studio 2013\Projects\DershaneOtomasyon\DershaneOtomasyon\obj\Debug\DershaneOtomasyon.pdb
+C:\Users\aypc\documents\visual studio 2013\Projects\DershaneOtomasyon\DershaneOtomasyon\obj\Debug\DershaneOtomasyon.frmPersonel.resources
+C:\Users\aypc\documents\visual studio 2013\Projects\DershaneOtomasyon\DershaneOtomasyon\obj\Debug\DershaneOtomasyon.frmKasa.resources
+C:\Users\aypc\documents\visual studio 2013\Projects\DershaneOtomasyon\DershaneOtomasyon\obj\Debug\DershaneOtomasyon.frmOgrenci.resources
+C:\Users\aypc\documents\visual studio 2013\Projects\DershaneOtomasyon\DershaneOtomasyon\obj\Debug\DershaneOtomasyon.ucOdeme.resources
+C:\Users\aypc\documents\visual studio 2013\Projects\DershaneOtomasyon\DershaneOtomasyon\obj\Debug\DershaneOtomasyon.frmOdeme.resources
+C:\Users\aypc\documents\visual studio 2013\Projects\DershaneOtomasyon\DershaneOtomasyon\obj\Debug\DershaneOtomasyon.ucOgrenciListele.resources
+C:\Users\aypc\documents\visual studio 2013\Projects\DershaneOtomasyon\DershaneOtomasyon\obj\Debug\DershaneOtomasyon.frmMain.resources
+C:\Users\aypc\documents\visual studio 2013\Projects\DershaneOtomasyon\DershaneOtomasyon\obj\Debug\DershaneOtomasyon.frmOgrenciListele.resources
+C:\Users\aypc\documents\visual studio 2013\Projects\DershaneOtomasyon\DershaneOtomasyon\obj\Debug\DershaneOtomasyon.frmPersonelListele.resources
+C:\Users\aypc\documents\visual studio 2013\Projects\DershaneOtomasyon\DershaneOtomasyon\bin\Debug\MODEL.dll
+C:\Users\aypc\documents\visual studio 2013\Projects\DershaneOtomasyon\DershaneOtomasyon\bin\Debug\MODEL.pdb
+C:\Users\aypc\documents\visual studio 2013\Projects\DershaneOtomasyon\DershaneOtomasyon\obj\Debug\DershaneOtomasyon.frmOdemeVade.resources
+C:\Users\aypc\documents\visual studio 2013\Projects\DershaneOtomasyon\DershaneOtomasyon\obj\Debug\DershaneOtomasyon.frmOgrenciRpr.resources
+E:\C# PROJELER\Visual Studio 2013\Projects\DershaneOtomasyon\DershaneOtomasyon\bin\Debug\Dershane.mdf
+E:\C# PROJELER\Visual Studio 2013\Projects\DershaneOtomasyon\DershaneOtomasyon\bin\Debug\Dershane_log.ldf
+E:\C# PROJELER\Visual Studio 2013\Projects\DershaneOtomasyon\DershaneOtomasyon\bin\Debug\DershaneOtomasyon.exe.config
+E:\C# PROJELER\Visual Studio 2013\Projects\DershaneOtomasyon\DershaneOtomasyon\bin\Debug\DershaneOtomasyon.exe
+E:\C# PROJELER\Visual Studio 2013\Projects\DershaneOtomasyon\DershaneOtomasyon\bin\Debug\DershaneOtomasyon.pdb
+E:\C# PROJELER\Visual Studio 2013\Projects\DershaneOtomasyon\DershaneOtomasyon\bin\Debug\MODEL.dll
+E:\C# PROJELER\Visual Studio 2013\Projects\DershaneOtomasyon\DershaneOtomasyon\bin\Debug\MODEL.pdb
+E:\C# PROJELER\Visual Studio 2013\Projects\DershaneOtomasyon\DershaneOtomasyon\obj\Debug\DershaneOtomasyon.csprojResolveAssemblyReference.cache
+E:\C# PROJELER\Visual Studio 2013\Projects\DershaneOtomasyon\DershaneOtomasyon\obj\Debug\DershaneOtomasyon.frmDBilgi.resources
+E:\C# PROJELER\Visual Studio 2013\Projects\DershaneOtomasyon\DershaneOtomasyon\obj\Debug\DershaneOtomasyon.frmLogin.resources
+E:\C# PROJELER\Visual Studio 2013\Projects\DershaneOtomasyon\DershaneOtomasyon\obj\Debug\DershaneOtomasyon.frmMain.resources
+E:\C# PROJELER\Visual Studio 2013\Projects\DershaneOtomasyon\DershaneOtomasyon\obj\Debug\DershaneOtomasyon.frmKasa.resources
+E:\C# PROJELER\Visual Studio 2013\Projects\DershaneOtomasyon\DershaneOtomasyon\obj\Debug\DershaneOtomasyon.frmOdeme.resources
+E:\C# PROJELER\Visual Studio 2013\Projects\DershaneOtomasyon\DershaneOtomasyon\obj\Debug\DershaneOtomasyon.frmOdemeVade.resources
+E:\C# PROJELER\Visual Studio 2013\Projects\DershaneOtomasyon\DershaneOtomasyon\obj\Debug\DershaneOtomasyon.frmOgrenci.resources
+E:\C# PROJELER\Visual Studio 2013\Projects\DershaneOtomasyon\DershaneOtomasyon\obj\Debug\DershaneOtomasyon.frmOgrenciListele.resources
+E:\C# PROJELER\Visual Studio 2013\Projects\DershaneOtomasyon\DershaneOtomasyon\obj\Debug\DershaneOtomasyon.frmPersonel.resources
+E:\C# PROJELER\Visual Studio 2013\Projects\DershaneOtomasyon\DershaneOtomasyon\obj\Debug\DershaneOtomasyon.frmPersonelListele.resources
+E:\C# PROJELER\Visual Studio 2013\Projects\DershaneOtomasyon\DershaneOtomasyon\obj\Debug\DershaneOtomasyon.Properties.Resources.resources
+E:\C# PROJELER\Visual Studio 2013\Projects\DershaneOtomasyon\DershaneOtomasyon\obj\Debug\DershaneOtomasyon.ucOdeme.resources
+E:\C# PROJELER\Visual Studio 2013\Projects\DershaneOtomasyon\DershaneOtomasyon\obj\Debug\DershaneOtomasyon.ucOgrenciListele.resources
+E:\C# PROJELER\Visual Studio 2013\Projects\DershaneOtomasyon\DershaneOtomasyon\obj\Debug\DershaneOtomasyon.csproj.GenerateResource.Cache
+E:\C# PROJELER\Visual Studio 2013\Projects\DershaneOtomasyon\DershaneOtomasyon\obj\Debug\DershaneOtomasyon.exe
+E:\C# PROJELER\Visual Studio 2013\Projects\DershaneOtomasyon\DershaneOtomasyon\obj\Debug\DershaneOtomasyon.pdb
+E:\C# PROJELER\Visual Studio 2013\Projects\DershaneOtomasyon\DershaneOtomasyon\bin\Debug\DershaneOtomasyon.exe.CodeAnalysisLog.xml
+E:\C# PROJELER\Visual Studio 2013\Projects\DershaneOtomasyon\DershaneOtomasyon\bin\Debug\DershaneOtomasyon.exe.lastcodeanalysissucceeded
+E:\C# PROJELER\DershaneOtomasyon\DershaneOtomasyon\bin\Debug\DershaneOtomasyon.exe.config
+E:\C# PROJELER\DershaneOtomasyon\DershaneOtomasyon\obj\Debug\DershaneOtomasyon.exe
+E:\C# PROJELER\DershaneOtomasyon\DershaneOtomasyon\obj\Debug\DershaneOtomasyon.pdb
+E:\C# PROJELER\DershaneOtomasyon\DershaneOtomasyon\bin\Debug\Dershane.mdf
+E:\C# PROJELER\DershaneOtomasyon\DershaneOtomasyon\bin\Debug\Dershane_log.ldf
+E:\C# PROJELER\DershaneOtomasyon\DershaneOtomasyon\bin\Debug\DershaneOtomasyon.exe
+E:\C# PROJELER\DershaneOtomasyon\DershaneOtomasyon\bin\Debug\DershaneOtomasyon.pdb
+E:\C# PROJELER\DershaneOtomasyon\DershaneOtomasyon\bin\Debug\MODEL.dll
+E:\C# PROJELER\DershaneOtomasyon\DershaneOtomasyon\bin\Debug\MODEL.pdb
+E:\C# PROJELER\DershaneOtomasyon\DershaneOtomasyon\obj\Debug\DershaneOtomasyon.csprojResolveAssemblyReference.cache
+E:\C# PROJELER\DershaneOtomasyon\DershaneOtomasyon\obj\Debug\DershaneOtomasyon.frmDBilgi.resources
+E:\C# PROJELER\DershaneOtomasyon\DershaneOtomasyon\obj\Debug\DershaneOtomasyon.frmLogin.resources
+E:\C# PROJELER\DershaneOtomasyon\DershaneOtomasyon\obj\Debug\DershaneOtomasyon.frmMain.resources
+E:\C# PROJELER\DershaneOtomasyon\DershaneOtomasyon\obj\Debug\DershaneOtomasyon.frmKasa.resources
+E:\C# PROJELER\DershaneOtomasyon\DershaneOtomasyon\obj\Debug\DershaneOtomasyon.frmOdeme.resources
+E:\C# PROJELER\DershaneOtomasyon\DershaneOtomasyon\obj\Debug\DershaneOtomasyon.frmOdemeVade.resources
+E:\C# PROJELER\DershaneOtomasyon\DershaneOtomasyon\obj\Debug\DershaneOtomasyon.frmOgrenci.resources
+E:\C# PROJELER\DershaneOtomasyon\DershaneOtomasyon\obj\Debug\DershaneOtomasyon.frmOgrenciListele.resources
+E:\C# PROJELER\DershaneOtomasyon\DershaneOtomasyon\obj\Debug\DershaneOtomasyon.frmPersonel.resources
+E:\C# PROJELER\DershaneOtomasyon\DershaneOtomasyon\obj\Debug\DershaneOtomasyon.frmPersonelListele.resources
+E:\C# PROJELER\DershaneOtomasyon\DershaneOtomasyon\obj\Debug\DershaneOtomasyon.Properties.Resources.resources
+E:\C# PROJELER\DershaneOtomasyon\DershaneOtomasyon\obj\Debug\DershaneOtomasyon.ucOdeme.resources
+E:\C# PROJELER\DershaneOtomasyon\DershaneOtomasyon\obj\Debug\DershaneOtomasyon.ucOgrenciListele.resources
+E:\C# PROJELER\DershaneOtomasyon\DershaneOtomasyon\obj\Debug\DershaneOtomasyon.csproj.GenerateResource.Cache
+C:\Users\aypc\Desktop\DershaneOtomasyon\DershaneOtomasyon\bin\Debug\DershaneOtomasyon.exe.config
+C:\Users\aypc\Desktop\DershaneOtomasyon\DershaneOtomasyon\bin\Debug\Dershane.mdf
+C:\Users\aypc\Desktop\DershaneOtomasyon\DershaneOtomasyon\bin\Debug\Dershane_log.ldf
+C:\Users\aypc\Desktop\DershaneOtomasyon\DershaneOtomasyon\bin\Debug\DershaneOtomasyon.exe
+C:\Users\aypc\Desktop\DershaneOtomasyon\DershaneOtomasyon\bin\Debug\DershaneOtomasyon.pdb
+C:\Users\aypc\Desktop\DershaneOtomasyon\DershaneOtomasyon\bin\Debug\MODEL.dll
+C:\Users\aypc\Desktop\DershaneOtomasyon\DershaneOtomasyon\bin\Debug\MODEL.pdb
+C:\Users\aypc\Desktop\DershaneOtomasyon\DershaneOtomasyon\obj\Debug\DershaneOtomasyon.csprojResolveAssemblyReference.cache
+C:\Users\aypc\Desktop\DershaneOtomasyon\DershaneOtomasyon\obj\Debug\DershaneOtomasyon.frmDBilgi.resources
+C:\Users\aypc\Desktop\DershaneOtomasyon\DershaneOtomasyon\obj\Debug\DershaneOtomasyon.frmLogin.resources
+C:\Users\aypc\Desktop\DershaneOtomasyon\DershaneOtomasyon\obj\Debug\DershaneOtomasyon.frmMain.resources
+C:\Users\aypc\Desktop\DershaneOtomasyon\DershaneOtomasyon\obj\Debug\DershaneOtomasyon.frmKasa.resources
+C:\Users\aypc\Desktop\DershaneOtomasyon\DershaneOtomasyon\obj\Debug\DershaneOtomasyon.frmOdeme.resources
+C:\Users\aypc\Desktop\DershaneOtomasyon\DershaneOtomasyon\obj\Debug\DershaneOtomasyon.frmOdemeVade.resources
+C:\Users\aypc\Desktop\DershaneOtomasyon\DershaneOtomasyon\obj\Debug\DershaneOtomasyon.frmOgrenci.resources
+C:\Users\aypc\Desktop\DershaneOtomasyon\DershaneOtomasyon\obj\Debug\DershaneOtomasyon.frmOgrenciListele.resources
+C:\Users\aypc\Desktop\DershaneOtomasyon\DershaneOtomasyon\obj\Debug\DershaneOtomasyon.frmPersonel.resources
+C:\Users\aypc\Desktop\DershaneOtomasyon\DershaneOtomasyon\obj\Debug\DershaneOtomasyon.frmPersonelListele.resources
+C:\Users\aypc\Desktop\DershaneOtomasyon\DershaneOtomasyon\obj\Debug\DershaneOtomasyon.Properties.Resources.resources
+C:\Users\aypc\Desktop\DershaneOtomasyon\DershaneOtomasyon\obj\Debug\DershaneOtomasyon.ucOdeme.resources
+C:\Users\aypc\Desktop\DershaneOtomasyon\DershaneOtomasyon\obj\Debug\DershaneOtomasyon.ucOgrenciListele.resources
+C:\Users\aypc\Desktop\DershaneOtomasyon\DershaneOtomasyon\obj\Debug\DershaneOtomasyon.csproj.GenerateResource.Cache
+C:\Users\aypc\Desktop\DershaneOtomasyon\DershaneOtomasyon\obj\Debug\DershaneOtomasyon.exe
+C:\Users\aypc\Desktop\DershaneOtomasyon\DershaneOtomasyon\obj\Debug\DershaneOtomasyon.pdb
+E:\OMU\Yazılım Muhendisligi\DershaneOtomasyon\DershaneOtomasyon\bin\Debug\DershaneOtomasyon.exe.config
+E:\OMU\Yazılım Muhendisligi\DershaneOtomasyon\DershaneOtomasyon\obj\Debug\DershaneOtomasyon.exe
+E:\OMU\Yazılım Muhendisligi\DershaneOtomasyon\DershaneOtomasyon\obj\Debug\DershaneOtomasyon.pdb
+E:\OMU\Yazılım Muhendisligi\DershaneOtomasyon\DershaneOtomasyon\bin\Debug\Dershane.mdf
+E:\OMU\Yazılım Muhendisligi\DershaneOtomasyon\DershaneOtomasyon\bin\Debug\Dershane_log.ldf
+E:\OMU\Yazılım Muhendisligi\DershaneOtomasyon\DershaneOtomasyon\bin\Debug\DershaneOtomasyon.exe
+E:\OMU\Yazılım Muhendisligi\DershaneOtomasyon\DershaneOtomasyon\bin\Debug\DershaneOtomasyon.pdb
+E:\OMU\Yazılım Muhendisligi\DershaneOtomasyon\DershaneOtomasyon\bin\Debug\MODEL.dll
+E:\OMU\Yazılım Muhendisligi\DershaneOtomasyon\DershaneOtomasyon\bin\Debug\MODEL.pdb
+E:\OMU\Yazılım Muhendisligi\DershaneOtomasyon\DershaneOtomasyon\obj\Debug\DershaneOtomasyon.csprojResolveAssemblyReference.cache
+E:\OMU\Yazılım Muhendisligi\DershaneOtomasyon\DershaneOtomasyon\obj\Debug\DershaneOtomasyon.frmDBilgi.resources
+E:\OMU\Yazılım Muhendisligi\DershaneOtomasyon\DershaneOtomasyon\obj\Debug\DershaneOtomasyon.frmLogin.resources
+E:\OMU\Yazılım Muhendisligi\DershaneOtomasyon\DershaneOtomasyon\obj\Debug\DershaneOtomasyon.frmMain.resources
+E:\OMU\Yazılım Muhendisligi\DershaneOtomasyon\DershaneOtomasyon\obj\Debug\DershaneOtomasyon.frmKasa.resources
+E:\OMU\Yazılım Muhendisligi\DershaneOtomasyon\DershaneOtomasyon\obj\Debug\DershaneOtomasyon.frmOdeme.resources
+E:\OMU\Yazılım Muhendisligi\DershaneOtomasyon\DershaneOtomasyon\obj\Debug\DershaneOtomasyon.frmOdemeVade.resources
+E:\OMU\Yazılım Muhendisligi\DershaneOtomasyon\DershaneOtomasyon\obj\Debug\DershaneOtomasyon.frmOgrenci.resources
+E:\OMU\Yazılım Muhendisligi\DershaneOtomasyon\DershaneOtomasyon\obj\Debug\DershaneOtomasyon.frmOgrenciListele.resources
+E:\OMU\Yazılım Muhendisligi\DershaneOtomasyon\DershaneOtomasyon\obj\Debug\DershaneOtomasyon.frmPersonel.resources
+E:\OMU\Yazılım Muhendisligi\DershaneOtomasyon\DershaneOtomasyon\obj\Debug\DershaneOtomasyon.frmPersonelListele.resources
+E:\OMU\Yazılım Muhendisligi\DershaneOtomasyon\DershaneOtomasyon\obj\Debug\DershaneOtomasyon.Properties.Resources.resources
+E:\OMU\Yazılım Muhendisligi\DershaneOtomasyon\DershaneOtomasyon\obj\Debug\DershaneOtomasyon.ucOdeme.resources
+E:\OMU\Yazılım Muhendisligi\DershaneOtomasyon\DershaneOtomasyon\obj\Debug\DershaneOtomasyon.ucOgrenciListele.resources
+E:\OMU\Yazılım Muhendisligi\DershaneOtomasyon\DershaneOtomasyon\obj\Debug\DershaneOtomasyon.csproj.GenerateResource.Cache
+E:\cdcd\$Root\OMU\1.DONEM\Yazılım Muhendisligi\DershaneOtomasyon\DershaneOtomasyon\bin\Debug\DershaneOtomasyon.exe.config
+E:\cdcd\$Root\OMU\1.DONEM\Yazılım Muhendisligi\DershaneOtomasyon\DershaneOtomasyon\obj\Debug\DershaneOtomasyon.exe
+E:\cdcd\$Root\OMU\1.DONEM\Yazılım Muhendisligi\DershaneOtomasyon\DershaneOtomasyon\obj\Debug\DershaneOtomasyon.pdb
+E:\cdcd\$Root\OMU\1.DONEM\Yazılım Muhendisligi\DershaneOtomasyon\DershaneOtomasyon\bin\Debug\Database1.mdf
+E:\cdcd\$Root\OMU\1.DONEM\Yazılım Muhendisligi\DershaneOtomasyon\DershaneOtomasyon\bin\Debug\Database1_log.ldf
+E:\cdcd\$Root\OMU\1.DONEM\Yazılım Muhendisligi\DershaneOtomasyon\DershaneOtomasyon\bin\Debug\Dershane.mdf
+E:\cdcd\$Root\OMU\1.DONEM\Yazılım Muhendisligi\DershaneOtomasyon\DershaneOtomasyon\bin\Debug\Dershane_log.ldf
+E:\cdcd\$Root\OMU\1.DONEM\Yazılım Muhendisligi\DershaneOtomasyon\DershaneOtomasyon\bin\Debug\DershaneOtomasyon.exe
+E:\cdcd\$Root\OMU\1.DONEM\Yazılım Muhendisligi\DershaneOtomasyon\DershaneOtomasyon\bin\Debug\DershaneOtomasyon.pdb
+E:\cdcd\$Root\OMU\1.DONEM\Yazılım Muhendisligi\DershaneOtomasyon\DershaneOtomasyon\bin\Debug\MODEL.dll
+E:\cdcd\$Root\OMU\1.DONEM\Yazılım Muhendisligi\DershaneOtomasyon\DershaneOtomasyon\bin\Debug\MODEL.pdb
+E:\cdcd\$Root\OMU\1.DONEM\Yazılım Muhendisligi\DershaneOtomasyon\DershaneOtomasyon\obj\Debug\DershaneOtomasyon.csprojResolveAssemblyReference.cache
+E:\cdcd\$Root\OMU\1.DONEM\Yazılım Muhendisligi\DershaneOtomasyon\DershaneOtomasyon\obj\Debug\DershaneOtomasyon.frmDBilgi.resources
+E:\cdcd\$Root\OMU\1.DONEM\Yazılım Muhendisligi\DershaneOtomasyon\DershaneOtomasyon\obj\Debug\DershaneOtomasyon.frmLogin.resources
+E:\cdcd\$Root\OMU\1.DONEM\Yazılım Muhendisligi\DershaneOtomasyon\DershaneOtomasyon\obj\Debug\DershaneOtomasyon.frmMain.resources
+E:\cdcd\$Root\OMU\1.DONEM\Yazılım Muhendisligi\DershaneOtomasyon\DershaneOtomasyon\obj\Debug\DershaneOtomasyon.frmKasa.resources
+E:\cdcd\$Root\OMU\1.DONEM\Yazılım Muhendisligi\DershaneOtomasyon\DershaneOtomasyon\obj\Debug\DershaneOtomasyon.frmOdeme.resources
+E:\cdcd\$Root\OMU\1.DONEM\Yazılım Muhendisligi\DershaneOtomasyon\DershaneOtomasyon\obj\Debug\DershaneOtomasyon.frmOdemeVade.resources
+E:\cdcd\$Root\OMU\1.DONEM\Yazılım Muhendisligi\DershaneOtomasyon\DershaneOtomasyon\obj\Debug\DershaneOtomasyon.frmOgrenci.resources
+E:\cdcd\$Root\OMU\1.DONEM\Yazılım Muhendisligi\DershaneOtomasyon\DershaneOtomasyon\obj\Debug\DershaneOtomasyon.frmOgrenciListele.resources
+E:\cdcd\$Root\OMU\1.DONEM\Yazılım Muhendisligi\DershaneOtomasyon\DershaneOtomasyon\obj\Debug\DershaneOtomasyon.frmPersonel.resources
+E:\cdcd\$Root\OMU\1.DONEM\Yazılım Muhendisligi\DershaneOtomasyon\DershaneOtomasyon\obj\Debug\DershaneOtomasyon.frmPersonelListele.resources
+E:\cdcd\$Root\OMU\1.DONEM\Yazılım Muhendisligi\DershaneOtomasyon\DershaneOtomasyon\obj\Debug\DershaneOtomasyon.Properties.Resources.resources
+E:\cdcd\$Root\OMU\1.DONEM\Yazılım Muhendisligi\DershaneOtomasyon\DershaneOtomasyon\obj\Debug\DershaneOtomasyon.ucOdeme.resources
+E:\cdcd\$Root\OMU\1.DONEM\Yazılım Muhendisligi\DershaneOtomasyon\DershaneOtomasyon\obj\Debug\DershaneOtomasyon.ucOgrenciListele.resources
+E:\cdcd\$Root\OMU\1.DONEM\Yazılım Muhendisligi\DershaneOtomasyon\DershaneOtomasyon\obj\Debug\DershaneOtomasyon.csproj.GenerateResource.Cache

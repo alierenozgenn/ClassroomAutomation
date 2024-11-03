@@ -1,0 +1,101 @@
+﻿odemevade hepsinş sil tekrar ekle
+
+
+
+CREATE TRIGGER TRGODEMEVADE
+ON TBLOgrenci
+AFTER UPDATE
+AS
+
+DECLARE @OgrTutar INT, @OgrTaksit INT, @OgrNO INT
+
+SELECT @OgrTutar =TBLOgrenci.OgrSozTutar, @OgrTaksit =TBLOgrenci.OgrSozTaksit, @OgrNO = TBLOgrenci.OgrNO from TBLOgrenci
+
+/*IF (@GRPCODE = 1)*/
+BEGIN
+update TBLOdemeVade set OdvVadeMiktar=@OgrTutar/@OgrTaksit  WHERE OdvOgrID = @OgrNO
+END
+
+
+
+
+
+
+private void textBox5_TextChanged(object sender, EventArgs e)
+        {
+            DataView dv = ds.Tables[0].DefaultView;
+            dv.RowFilter = "Ad Like '"+textBox5.Text+"%'";
+            //dv.RowFilter = string.Format("Ad LIKE '{0}%'", textBox5.Text);
+            dataGridView1.DataSource = dv;
+        }
+
+		Tamam arkadaşlar bunu da hallettim :)
+
+this.Listeyi_Filtrele("alan1 LIKE '" + comboBox1.Text.ToString() + "%' AND alan2 LIKE '" + comboBox2.Text.ToString() + "%'");
+
+
+private void TextBox1_TextChanged(object sender, EventArgs e)
+{
+    (DataGridView1.DataSource as DataTable).DefaultView.RowFilter =
+    string.Format("Name LIKE '{0}%' OR Name LIKE '% {0}%'", TextBox1.Text);
+}
+  <add name="dershaneConnStr"
+       connectionString="Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\aypc\Documents\Visual Studio 2013\Projects\DershaneOtomasyon\DershaneOtomasyon\Dershane.mdf;Integrated Security=True"
+       providerName="System.Data.SqlClient" />
+
+
+	   <add name="dershaneConnStr"
+       connectionString="Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=|DataDirectory|Dershane.mdf;Integrated Security=True"
+       providerName="System.Data.SqlClient" />
+
+	    <add name="dershaneConnStr"
+       connectionString="Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=|DataDirectory|Dershane.mdf;Integrated Security=True"
+       providerName="System.Data.SqlClient" />
+
+	       <add name="dershaneConnStr"
+       connectionString="Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=E:\C# PROJELER\DershaneOtomasyon\Dershane.mdf;Integrated Security=True"
+       providerName="System.Data.SqlClient" />
+	   Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename="E:\C# PROJELER\Visual Studio 2013\Projects\DershaneOtomasyon\DershaneOtomasyon\Dershane.mdf";Integrated Security=True
+	   
+down vote
+Here's a few different ways of doing it, with some relative performance numbers:
+
+Initial
+
+people.Where(delegate(Person person)
+{
+    var student = person as Student;
+    return student != null && student.Grade > 7m;
+});
+Initial Modified (same speed as Initial)
+
+people.Where(p =>
+{
+    var student = p as Student;
+    return student != null && student.Grade > 7m;
+});
+OfType (40-52% SLOWER than Initial)
+
+people.OfType<Student>().Where(s => s.Grade > 7m)
+Foreach (9-16% faster than Initial)
+
+var results = new List<Student>();
+foreach (var person in people)
+{
+    var student = person as Student;
+    if (student != null && student.Grade > 7m)
+    {
+         results.Add(student);
+    }
+}
+For (12-18% faster than initial)
+
+var results = new List<Student>();
+for (var idxPerson = 0; idxPerson < people.Count; idxPerson++)
+{
+    var student = people[idxPerson] as Student;
+    if (student != null && student.Grade > 7m)
+    {
+        results.Add(student);
+    }
+}
